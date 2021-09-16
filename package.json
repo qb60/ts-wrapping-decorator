@@ -1,0 +1,21 @@
+{
+  "name": "ts-wrapping-decorator",
+  "version": "0.1.0",
+  "description": "Wraps class methods with a before and after functions with signatures typechecking",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "lint": "eslint ."
+  },
+  "author": "Sergey Cheremisov <q.basic60@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
